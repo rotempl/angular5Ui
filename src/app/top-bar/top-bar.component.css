@@ -1,0 +1,80 @@
+.topBarContainer {
+    height: 10vh;
+    border: 1px solid #d2cfcf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4vh;
+}
+.leftSide {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.rightSide{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.userImage{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.middle {
+    flex-grow: 10;
+}
+button.addProjectButton {
+    background-color: #5584ff;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 2.2vh;
+    cursor: pointer;
+    border: none;
+    padding: 2% 3%;
+    flex-grow: 1;
+}
+.notificationCircle{
+    background-color: #5584ff;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    line-height: 1vw;
+    width: 1vw;
+    font-size: 0.7vw;
+    position: absolute;
+    top: 2.5%;
+    z-index: 20;
+    border: 1px solid white;
+}
+.fa-bell{
+    position: relative;
+}
+.imageContainer{
+    display: flex;
+    font-size: 3vh;
+    align-items: center;
+    flex-grow: 1;
+}
+.envelope{
+    flex-grow: 1;
+    text-align: center; 
+}
+.notidications{
+    flex-grow: 1;
+}
+.fa-bars{
+    cursor: pointer;    
+}
+.openBars{
+    color:#5584ff;
+}
+.closeBars{
+    display: none;
+}
+.cursorPointer{
+    cursor: pointer;       
+}  

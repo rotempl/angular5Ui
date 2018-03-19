@@ -1,0 +1,26 @@
+<div class='topBarContainer'>
+  <div class='leftSide'>
+    <span>
+      <span [ngClass]="isOpen ? 'openBars' : 'closeBars'">
+        <i class="fa fa-caret-left" aria-hidden="true"></i>
+      </span>
+      <i class="fa fa-bars" aria-hidden="true" (click)='toggleSideBar()'></i>
+    </span>
+    <i class="fa fa-search cursorPointer" aria-hidden="true"></i>
+  </div>
+  <div class="middle"></div>
+  <div class='rightSide'>
+    <button class="addProjectButton">+ Add project</button>
+    <span class='envelope'>
+      <i class="fa fa-envelope cursorPointer" aria-hidden="true"></i>
+    </span>
+    <span class='notidications'>
+      <div class='notificationCircle'>3</div>
+      <i class="fa fa-bell cursorPointer" aria-hidden="true"></i>
+    </span>
+    <span class='imageContainer cursorPointer'>
+      <img src="https://g1.dcdn.lt/images/pix/moteris-70845074.jpg" class="userImage">
+      <i class="fa fa-caret-down" aria-hidden="true"></i>
+    </span>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+.activityHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+    border-bottom: 1px solid  #e6e9ef;    
+}
+.boxHeader{
+    font-weight: bold;
+    flex-grow: 16;
+    color: #19243e;
+}
+.notificationCirle{
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    line-height: 3vw;
+    width: 3vw;
+    font-size: 1.5vw;
+}
+.BCBlue{
+    background-color: #5384ff;
+}
+.activityBody{
+    display: grid;
+    position: relative;
+    z-index: 0;
+}
+.acticityContainer{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    border: 1px solid #e6e9ef;
+    background-color: white;
+    box-sizing: border-box;
+    height: 70vh;
+}
+.time{
+    display: flex;
+}
+.line {
+    border-left: 1px solid #e6e9ef;
+    height: 76%;
+    position: absolute;
+    top: 12%;
+    right: 91%;
+    z-index: -1;
+}
+.activity{
+    display: grid;
+    align-items: center;
+}
