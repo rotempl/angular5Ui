@@ -7,8 +7,8 @@ import { Component, Output, EventEmitter, Input } from '@angular/core';
 })
 export class TopBarComponent {
 
-  @Output() toggle: EventEmitter<any> = new EventEmitter();
-  @Input() isOpen: boolean=false; 
+  @Output() toggle: EventEmitter<null> = new EventEmitter();
+  @Input() isOpen: boolean; 
 
   toggleSideBar(){
    this.toggle.emit();
