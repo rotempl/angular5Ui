@@ -9,7 +9,7 @@ export class AppComponent {
   sideBarIsOpened = false;
   pageClass: string = 'menuClose';
 
-  toggleSideBar(shouldOpen: boolean) {
+  toggleSideBar() {
     this.sideBarIsOpened = !this.sideBarIsOpened;
     this.pageClass === 'menuClose'? this.pageClass='menuOpen' : this.pageClass='menuClose'
   }
