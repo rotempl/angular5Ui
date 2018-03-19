@@ -9,11 +9,11 @@ export class TopBarComponent {
   constructor(isOpen){
     
   }
-  @Output() toggle: EventEmitter<null> = new EventEmitter();
+  // @Output() toggle: EventEmitter<null> = new EventEmitter();
   @Input() isOpen: boolean;
 
 
-  toggleSideBar(){
-   this.toggle.emit();
-  }
+  // toggleSideBar(){
+  //  this.toggle.emit();
+  // }
 }
