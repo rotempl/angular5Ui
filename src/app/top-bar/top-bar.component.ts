@@ -6,14 +6,11 @@ import { Component, Output, EventEmitter, Input } from '@angular/core';
   styleUrls: ['./top-bar.component.css']
 })
 export class TopBarComponent {
-  constructor(isOpen){
-    
+
+  @Output() toggle: EventEmitter<null> = new EventEmitter();
+  @Input() isOpen: boolean; 
+
+  toggleSideBar(){
+   this.toggle.emit();
   }
-  // @Output() toggle: EventEmitter<null> = new EventEmitter();
-  @Input() isOpen: boolean;
-
-
-  // toggleSideBar(){
-  //  this.toggle.emit();
-  // }
 }
